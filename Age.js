@@ -45,10 +45,7 @@ function Cal_Age(){
     //  Last Statement
     let text = document.getElementById("text");
     text.innerHTML = `Your's Age is ->${Y} Years,  ${M} Month,  ${D} Days`;
-    console.log(text);
 }
 function getDays(saal,mahina){
     return new Date(saal,mahina,0).getDate();
 }
-let x = getDaysInMonth(m2);
-console.log(x)
